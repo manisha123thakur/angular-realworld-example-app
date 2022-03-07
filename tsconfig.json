@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
     "importHelpers": true,
     "downlevelIteration": true,
     "outDir": "./dist/out-tsc",
@@ -17,6 +18,11 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+       ]
   }
+      "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts"
+  ]
+   
 }
